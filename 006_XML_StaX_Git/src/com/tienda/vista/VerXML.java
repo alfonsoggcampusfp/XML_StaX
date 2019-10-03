@@ -11,7 +11,7 @@ public class VerXML {
 		// TODO Auto-generated method stub
 
 		ParsearXML read = new ParsearXML();
-        List<Producto> readConfig = read.readConfig("..\\..\\..\\..\\..\\Clientes.xml");
+        List<Producto> readConfig = read.readConfig("Clientes.xml");
         for (Producto item : readConfig) {
             System.out.println(item);
 		
